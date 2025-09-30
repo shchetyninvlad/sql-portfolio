@@ -32,3 +32,8 @@ It’s designed for further use in **BI systems** like Looker Studio or Power BI
 
 📁 [View SQL file](./task_2_bi_data_preparation.sql)
 
+Highest Weekly Value Campaign
+Finds the (week, campaign) with the **maximum total value** across Facebook + Google.
+
+[📁 View SQL](./top_weekly_value_campaign.sql)
+
