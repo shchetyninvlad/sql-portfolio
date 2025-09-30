@@ -1,20 +1,16 @@
 # sql-portfolio
 My SQL queries from data analytics projects
-###  Task 1 – Campaign Performance Analysis
+###  Task 1 – Daily Aggregates by Platform
+Повертає для **кожної дати** агрегати витрат окремо для Facebook та Google:
+- `avg_spend` (середнє)
+- `max_spend` (максимум)
+- `min_spend` (мінімум)
 
-This query calculates aggregated ad spend metrics for both **Facebook** and **Google** campaigns.  
-It returns the average, maximum, and minimum daily spending per platform, allowing quick comparison of advertising cost dynamics.
+**Групування:** `ad_date`, `media_source`  
+**Таблиці:** `facebook_ads_basic_daily`, `google_ads_basic_daily`
 
-**Tables used:**  
-- `facebook_ads_basic_daily`  
-- `google_ads_basic_daily`
+[📁 View SQL](./task_1_daily_platform_aggregates.sql)
 
-**Key metrics:**  
-- `avg_spend` – average daily ad spend  
-- `max_spend` – highest daily ad spend  
-- `min_spend` – lowest daily ad spend  
-
-📁 [View SQL file](./task_1_campaign_details.sql)
 
 ###  Task 2 – Data Preparation for BI Reporting
 
